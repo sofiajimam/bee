@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Player from './components/Player';
 
 function App() {
+  /* const song = "./static/music.mp3";
+  const audio = new Audio(song);
+  audio.play();
+
+  console.log(audio); */
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Player />
     </div>
   );
 }
